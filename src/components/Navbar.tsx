@@ -5,7 +5,7 @@ const Navbar = () => {
     <div>
         <h1>My Bookstore</h1>
         <h3>
-            English-USD
+            English-USD d
         </h3>
         <button>Sign In</button>
     </div>
