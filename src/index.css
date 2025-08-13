@@ -1,1 +1,7 @@
 @import "tailwindcss";
+
+/* body{ background: #FBF3D5;} */
+body {
+  -webkit-text-size-adjust: none;
+}
+

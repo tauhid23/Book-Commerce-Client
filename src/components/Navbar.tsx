@@ -72,7 +72,7 @@ const Navbar: React.FC = () => {
   }, []);
 
   return (
-    <div className="w-[1020px] p-4">
+    <div className="w-[1020px] py-4">
       <div className="flex justify-between">
         <h1 className="font-semibold text-xl">Book-Store</h1>
 
@@ -154,7 +154,7 @@ const Navbar: React.FC = () => {
             placeholder="Search..."
             value={searchTerm}
             onChange={(e) => setSearchTerm(e.target.value)}
-            className="border border-gray-300 w-64 rounded px-2 py-1"
+            className="border-1 border-gray-300 w-90 rounded px-2 py-2"
           />
         </div>
       </div>
